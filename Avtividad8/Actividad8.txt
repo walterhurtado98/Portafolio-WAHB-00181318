@@ -1,0 +1,16 @@
+Posfija:
+
+A-B/(C*D$E)       ((A+B)*C-(D-E))$(F+G)
+A-B/(C*DE$)       ((AB+)*C-(DE-))$(FG+)
+A-B/(CDE$*)       ((AB+)*C-(DE-))(FG+)$
+A-BCDE$*/         ((AB+)C*-(DE-))(FG+)$
+ABCDE$*/-         AB+C*DE--FG+$
+
+
+Prefija:
+
+A-B/(C*D$E)       ((A+B)*C-(D-E))$(F+G)
+A-B/(C*$DE)       ((+AB)*C-(-DE))$(+FG)
+A-B/(*C$DE)       $((+AB)*C-(-DE))(+FG)
+/A-B*C$DE         $(*(+AB)C-(-DE))(+FG)
+/-AB*C$DE         -$*+ABC-DE+FG
